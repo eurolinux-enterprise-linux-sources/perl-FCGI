@@ -3,7 +3,7 @@ Summary:        FastCGI Perl bindings
 # needed to properly replace/obsolete fcgi-perl
 Epoch:          1
 Version:        0.74
-Release:        6.1%{?dist}
+Release:        8%{?dist}
 # same as fcgi
 License:        OML
 Group:          Development/Libraries
@@ -55,6 +55,12 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:0.74-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.74-7
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 1:0.74-6.1
 - Fix the dependency list
 - Remove th *.PL scripts from %%doc
